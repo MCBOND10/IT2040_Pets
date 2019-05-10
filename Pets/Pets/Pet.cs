@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Pets
 {
-    class Pet
+    public class Pet
     {
         public string type;
         public string name;
         public string owner;
         public double weight;
 
-        public Pet(string Type, string Name, string Owner, double Weight)
+        public Pet(string type1, string Name, string Owner, double Weight)
         {
-            type = Type;
+            type = type1;
             name = Name;
             owner = Owner;
             weight = Weight;
