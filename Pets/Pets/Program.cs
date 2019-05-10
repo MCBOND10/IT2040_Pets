@@ -25,7 +25,11 @@ namespace Pets
 
             Console.WriteLine("");
 
-
+            Cat cat1 = new Cat("Simba", "Maria", 5.2);
+            Console.WriteLine("Name: " + cat1.name);
+            Console.WriteLine("Weight: " + cat1.weight);
+            Console.WriteLine(cat1.getTag());
+            Console.WriteLine(cat1.meow(3));
 
             Console.ReadKey();
         }
